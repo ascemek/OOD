@@ -1,0 +1,103 @@
+Sami Cemek - Lab 03  - OOD
+
+Task C Output:
+//Observer<Weather> weaObs = new WeatherObserver("Sarasota-Weather-Observer");
+// currentWeather.subscribe(weaObs,"precipitation");
+
+Weather-observer-of-Sarasota: Hour has changed to 0.
+Weather-observer-of-Sarasota: Temperature has changed to 78.5.
+Weather-observer-of-Sarasota: Precipitation has changed to scattered-thunderstorms.
+Weather-observer-of-Sarasota: Hour has changed to 1.
+Weather-observer-of-Sarasota: Temperature has changed to 78.5.
+Weather-observer-of-Sarasota: Precipitation has changed to scattered-thunderstorms.
+Weather-observer-of-Sarasota: Hour has changed to 2.
+Weather-observer-of-Sarasota: Temperature has changed to 77.0.
+Weather-observer-of-Sarasota: Precipitation has changed to isolated-thunderstorms.Weather-observer-of-Sarasota: Hour has changed to 3.
+Weather-observer-of-Sarasota: Temperature has changed to 77.0.
+Weather-observer-of-Sarasota: Precipitation has changed to isolated-thunderstorms.Weather-observer-of-Sarasota: Hour has changed to 4.
+Weather-observer-of-Sarasota: Temperature has changed to 76.0.
+Weather-observer-of-Sarasota: Precipitation has changed to isolated-thunderstorms.Weather-observer-of-Sarasota: Hour has changed to 5.
+Weather-observer-of-Sarasota: Temperature has changed to 77.0.
+Weather-observer-of-Sarasota: Precipitation has changed to -.
+Weather-observer-of-Sarasota: Hour has changed to 6.
+Weather-observer-of-Sarasota: Temperature has changed to 77.0.
+Weather-observer-of-Sarasota: Precipitation has changed to -.
+Weather-observer-of-Sarasota: Hour has changed to 7.
+Weather-observer-of-Sarasota: Temperature has changed to 77.0.
+Weather-observer-of-Sarasota: Precipitation has changed to -.
+Weather-observer-of-Sarasota: Hour has changed to 8.
+Weather-observer-of-Sarasota: Temperature has changed to 78.0.
+Weather-observer-of-Sarasota: Precipitation has changed to 50%-light-rain.        
+Weather-observer-of-Sarasota: Hour has changed to 9.
+Weather-observer-of-Sarasota: Temperature has changed to 78.77.
+Weather-observer-of-Sarasota: Precipitation has changed to 50%-light-rain.        
+Weather-observer-of-Sarasota: Hour has changed to 10.
+Weather-observer-of-Sarasota: Temperature has changed to 79.0.
+Weather-observer-of-Sarasota: Precipitation has changed to 40%-light-rain.        
+Weather-observer-of-Sarasota: Hour has changed to 11.
+Weather-observer-of-Sarasota: Temperature has changed to 80.0.
+Weather-observer-of-Sarasota: Precipitation has changed to 40%-light-rain.        
+Weather-observer-of-Sarasota: Hour has changed to 12.
+Weather-observer-of-Sarasota: Temperature has changed to 82.0.
+Weather-observer-of-Sarasota: Precipitation has changed to 20%-light-rain.
+
+Task E Output:
+
+[10 points] Uncomment the following two lines in the main(…) method and record the output
+(meaning, in the “comment.txt” file, copy and paste the output of the execution of the main method.
+Then summarize the outcome in your own words.)
+//FieldObserver tempObserver = new FieldObserver(“Temperatureobserver”,
+“temperature”); //assume it only reports the changes
+in the temperature
+//currentWeather.subscribe(tempObserver);
+
+Temperature Observer: Temperature has changed to 78.5.
+Temperature Observer: Temperature has changed to 78.5.
+Temperature Observer: Temperature has changed to 77.0.
+Temperature Observer: Temperature has changed to 77.0.
+Temperature Observer: Temperature has changed to 76.0.
+Temperature Observer: Temperature has changed to 77.0.
+Temperature Observer: Temperature has changed to 77.0.
+Temperature Observer: Temperature has changed to 77.0.
+Temperature Observer: Temperature has changed to 78.0.
+Temperature Observer: Temperature has changed to 78.77.
+Temperature Observer: Temperature has changed to 79.0.
+Temperature Observer: Temperature has changed to 80.0.
+Temperature Observer: Temperature has changed to 82.0.
+
+Task G and optional Output:
+
+[10 points] Uncomment and complete the following two lines in the main(…) method and
+record the output (meaning, in the “comment.txt” file, copy and paste the output of the execution.
+Then summarize the outcome in your own words.)
+//FieldObserverX precipObserverX = new
+FieldObserverX(“Precipitation-Observer”, “precipitation”,
+“isolated-thunderstorms”);
+//currentWeather.subscribe(precipObserverX);
+
+Temperature-Observer: Temperature 77 has changed to 78.5.
+Precipitation-Observer: Precipitation light-rain has changed to scattered-thunderstorms.
+Temperature-Observer: Temperature 77 has changed to 78.5.
+Precipitation-Observer: Precipitation light-rain has changed to scattered-thunderstorms.
+Temperature-Observer: Temperature 77 has changed to 77.0.
+Precipitation-Observer: Precipitation light-rain has changed to isolated-thunderstorms. 
+Temperature-Observer: Temperature 77 has changed to 77.0.
+Precipitation-Observer: Precipitation light-rain has changed to isolated-thunderstorms.
+Temperature-Observer: Temperature 77 has changed to 76.0.
+Precipitation-Observer: Precipitation light-rain has changed to isolated-thunderstorms.
+Temperature-Observer: Temperature 77 has changed to 77.0.
+Precipitation-Observer: Precipitation light-rain has changed to -.
+Temperature-Observer: Temperature 77 has changed to 77.0.
+Precipitation-Observer: Precipitation light-rain has changed to -.
+Temperature-Observer: Temperature 77 has changed to 77.0.
+Precipitation-Observer: Precipitation light-rain has changed to -.
+Temperature-Observer: Temperature 77 has changed to 78.0.
+Precipitation-Observer: Precipitation light-rain has changed to 50%-light-rain.
+Temperature-Observer: Temperature 77 has changed to 78.77.
+Precipitation-Observer: Precipitation light-rain has changed to 50%-light-rain.
+Temperature-Observer: Temperature 77 has changed to 79.0.
+Precipitation-Observer: Precipitation light-rain has changed to 40%-light-rain.
+Temperature-Observer: Temperature 77 has changed to 80.0.
+Precipitation-Observer: Precipitation light-rain has changed to 40%-light-rain.
+Temperature-Observer: Temperature 77 has changed to 82.0.
+Precipitation-Observer: Precipitation light-rain has changed to 20%-light-rain.
