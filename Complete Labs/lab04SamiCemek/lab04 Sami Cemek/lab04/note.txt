@@ -1,0 +1,22 @@
+Sami Cemek - Lab 04 - OOD
+
+Scene 2:
+(10 points) To Do:
+What challenges do the testing team face initially? Write your answers in `note.txt` file.
+Write necessary code to test both classes (`USRobotProducer`, `ChineseRobotIndustry`).
+
+The testing team initially will face problems with how to instantitate robot object.
+USRobotProducer and ChineseRobotIndustry are doing something similar and has a parent class Robot 
+but method names are different. "deliver" and "build" purpose is the same. "test" and "testYourRobot"
+purpose is the same. Testing team need to write a different test cases for different robots.
+Method names and signratures are different even though their purpose is the same.
+
+Scene 4
+(5 points) To Do:
+Which important design principle (out of the five stated in SOLID) did we violate?
+
+We are violating the Open-closed Principle (OCP). OCP states: Objects or entities should be open 
+for extension but closed for modification.
+
+Scene 5
+Check out the Scene5Diagram.jpg and lab04solution package.
